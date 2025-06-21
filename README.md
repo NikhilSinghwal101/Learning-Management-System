@@ -52,6 +52,7 @@ lms/
 
 ### 1. Clone the Repository
 git clone https://github.com/NikhilSinghwal101/Learning-Management-System.git
+
 cd lms
 
 2. Install Dependencies
