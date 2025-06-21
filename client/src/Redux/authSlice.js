@@ -4,8 +4,8 @@ import axiosInstance from "../Helper/axiosInstance";
 
 const initialState = {
   isLoggedIn: localStorage.getItem("isLoggedIn") || false,
-  // data: JSON.parse(localStorage.getItem("data")) || {}, // JSON.parse is necessary
-  data: {},
+  data: JSON.parse(localStorage.getItem("data")) || {}, // JSON.parse is necessary
+  // data: {},
   role: localStorage.getItem("role") || "",
 };
 
