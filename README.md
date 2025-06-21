@@ -18,8 +18,8 @@ A modern, full-featured Learning Management System (LMS) designed to facilitate 
 - Axios for API calls
 
 ### Backend
-- Node.js + Express.js (or NestJS)
-- MongoDB + Mongoose (or Prisma with PostgreSQL)
+- Node.js + Express.js
+- MongoDB + Mongoose 
 - JWT-based Authentication
 - Cloudinary for image/video uploads
 
@@ -29,17 +29,20 @@ A modern, full-featured Learning Management System (LMS) designed to facilitate 
 ## 📂 Project Structure
 
 lms/
+
 │
 ├── client/ # React frontend
 │ ├── src/
 │ └── ...
 │
+
 ├── server/ # Node backend
 │ ├── controllers/
 │ ├── models/
 │ ├── routes/
 │ └── ...
 │
+
 ├── uploads/ # Media uploads
 ├── .env # Environment variables
 ├── README.md
@@ -51,6 +54,7 @@ lms/
 ## ⚙️ Setup Instructions
 
 1. Clone the Repository
+   
 git clone https://github.com/NikhilSinghwal101/Learning-Management-System.git
 
 cd lms
@@ -70,19 +74,12 @@ npm install
 Create a .env file in both client/ and server/ with required variables. Example for backend:
 
 PORT=5000
-
 MONGODB_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_jwt_secret
-
 CLOUDINARY_CLOUD_NAME=...
-
 CLOUDINARY_API_KEY=...
-
 CLOUDINARY_API_SECRET=...
-
 RAZORPAY_KEY_ID=...
-
 RAZORPAY_SECRET=...
 
 5. Run the Application
