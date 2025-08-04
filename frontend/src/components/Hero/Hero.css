@@ -1,0 +1,24 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 110px;
+    color: rgb(235, 224, 224);
+    padding: 0px 65px 55px 65px;
+}
+
+.banner-heading-para{
+    width: 40rem;
+}
+
+.banner-heading{
+    font-size: 55px;
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+
+.banner-image{
+    height: 400px;
+    width: 400px;
+    margin: 3px;
+}

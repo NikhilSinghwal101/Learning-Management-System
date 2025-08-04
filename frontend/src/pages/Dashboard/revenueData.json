@@ -1,0 +1,22 @@
+[
+    {
+        "label": "January",
+        "revenue": 1,
+        "cost": 0
+    },
+    {
+        "label": "February",
+        "revenue": 3,
+        "cost": 7.5
+    },
+    {
+        "label": "March",
+        "revenue": 9,
+        "cost": 5
+    },
+    {
+        "label": "April",
+        "revenue": 8,
+        "cost": 12
+    }
+]

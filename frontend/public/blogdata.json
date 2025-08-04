@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "coverImg": "https://websitedemos.net/tech-blogger-04/wp-content/uploads/sites/817/2021/04/post-01-free-img.jpg",
+        "tag": "cryptocurrency",
+        "category": "Popular Posts",
+        "title": "What are blockchain transaction fees?",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci ipsam ab nesciunt doloribus facilis eos ipsa nemo deleniti aliquam? consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc Lorem ipsum dolor sit amet, consectetur adipisici Lorem ipsum dolor sit amet, consectetur adipisiciLorem ipsum dolor sit amet, consectetur adipisiciLorem ipsum dolor sit amet, consectetur adipisici Lorem ipsum dolor sit amet, consectetur adipisiciLorem ipsum dolor sit amet, conse ctetur adipisiciLorem ipsum dolor sit amet, consectetur adipisiciLorem ipsum dolor sit amet, consectetur adipisiciLorem ipsum dolor sit amet, consectetur adipisi ciLorem ipsum dolor sit amet, consectetur adipis iciLorem ipsum dolor sit amet, consectetur."
+    },
+    {   
+        "id": 2,
+        "coverImg": "https://websitedemos.net/tech-blogger-04/wp-content/uploads/sites/817/2021/04/post-02-free-img.jpg",
+        "tag": "technologies",
+        "category":"Popular Posts",
+        "title": "Best places to download HTML templates",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci ipsam ab nesciunt doloribus facilis eos ipsa nemo deleniti aliquam?"
+    },
+    {
+        "id": 3,
+        "coverImg": "https://websitedemos.net/tech-blogger-04/wp-content/uploads/sites/817/2021/04/post-05-free-img.jpg",
+        "tag": "programming",
+        "category": "Popular Posts",
+        "title": "Top 10 coding interview questions You must know",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci ipsam ab nesciunt doloribus facilis eos ipsa nemo deleniti aliquam? consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisclit. Voluptas adipiscc onsectetur adipisicing elit. Voluptas adipiscc onsect etur adipisicing elit. Voluptas adipiscc onsectetur adipisicing elit. Voluptas adipisc"
+    },  
+    {
+        "id": 4,
+        "coverImg": "https://websitedemos.net/tech-blogger-04/wp-content/uploads/sites/817/2021/04/post-02-free-img.jpg",
+        "tag": "technologies",
+        "category":"Latest Posts",
+        "title": "Best places to download HTML templates",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci ipsam ab nesciunt doloribus facilis eos ipsa nemo deleniti aliquam? consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc"
+    },
+    
+    {
+        "id": 5,
+        "coverImg": "https://websitedemos.net/tech-blogger-04/wp-content/uploads/sites/817/2021/04/post-01-free-img.jpg",
+        "tag": "cryptocurrency",
+        "category": "Latest Posts",
+        "title": "What are blockchain tranaction fees?",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci ipsam ab nesciunt doloribus facilis eos ipsa nemo deleniti aliquam? consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit. Voluptas adipisc consectetur adipisicing elit."
+    }
+]

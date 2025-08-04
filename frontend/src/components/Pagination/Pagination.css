@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination-button {
+    padding: 10px 15px;
+    border: 1px solid #007bff; /* Blue border */
+    background-color: white;
+    color: #007bff; /* Blue text */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination-button:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+}
+
+.pagination-page {
+    padding: 10px 15px;
+    border: 1px solid #007bff; /* Blue border */
+    margin: 0 5px;
+}
+
+.active {
+    background-color: #007bff; /* Blue background for active page */
+    color: white; /* White text for active page */
+}
+
+.disabled {
+    color: #ccc; /* Grey text for disabled buttons */
+    border: 1px solid #ccc; /* Grey border for disabled buttons */
+    cursor: not-allowed; /* Change cursor for disabled buttons */
+}

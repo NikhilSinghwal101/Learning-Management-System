@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(20, 20, 20); */
+}
+
+textarea {
+  max-width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px; /* Adjust width if needed */
+  animation: blink 1s step-end infinite; /* Blink effect */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0; /* Cursor disappears halfway through the animation */
+  }
+}
+
+/* TestimonialsCarousel.css */
+
+.testimonial-carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial {
+  display: block; /* Show current testimonial */
+}
+
+/* button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+  } */
+
+/* button:hover {
+	background-color: #0056b3;
+  } */
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+  
+
+
+
+
+/* Sidebar.css */
+
+.sidebar-items {
+	transition: background 0.3s ease; /* Transition for background color */
+  }
+  
+  
+  /* .svg-icon {
+	transition: transform 0.4s ease;
+  } */
+  
+  .sidebar-items-expand {
+	max-height: 0; /* Collapsed by default */
+	overflow: hidden; /* Hide overflowing content */
+	transition: max-height 0.4s ease, padding 0.2s ease; /* Smooth transition for height and padding */
+  }
+  
+  /* Active state for the answer */
+  .sidebar-items-expand.expanded {
+	max-height: 400px; /* Set a max height for expansion */
+  }
+  
+  /* .sidebar-items-expand.expanded .sidebar-items .svg-icon {
+	transform: rotate(180deg);
+  } */

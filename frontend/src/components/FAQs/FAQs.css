@@ -1,0 +1,57 @@
+.faq-container {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    overflow: hidden; /* Ensures no overflow when collapsing */
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* background: #007bff; */
+    background: #0466cf;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    transition: background 0.3s ease; /* Transition for background color */
+}
+
+.faq-question:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+.icon {
+    transition: transform 0.3s ease; /* Transition for icon rotation */
+}
+
+.faq-answer {
+    padding: 0 15px;
+    border-top: 1px solid #ccc;
+    background: white;
+    max-height: 0; /* Collapsed by default */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition for height and padding */
+}
+
+/* Active state for the answer */
+.faq-answer.expanded {
+    max-height: 200px; /* Set a max height for expansion */
+	padding: 15px;
+}
+
+.faq-answer.expanded + .faq-question .icon {
+    transform: rotate(45deg); /* Rotate icon when expanded */
+}
+

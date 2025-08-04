@@ -1,0 +1,38 @@
+[
+    {   
+        "coverImg": "https://www.asiapacific.edu/uploads/blogs/1657627995.jpg",
+        "duration": "25h 06m",
+        "title": "Introduction to Python Programming",
+        "lessons": "20",
+        "level": "Beginner",
+        "rating": "4.7",
+        "userImg": "",
+        "userName": "Wade",
+        "price": "499",
+        "category": "Programming"
+    },
+    {   
+        "coverImg": "https://www.simplilearn.com/ice9/app/Javascript_360x194.jpg",
+        "duration": "28h 34m",
+        "title": "Introduction to JavaScript",
+        "lessons": "35",
+        "level": "Beginner",
+        "rating": "4.8",
+        "userImg": "",
+        "userName": "Methew",
+        "price": "599",
+        "category": "Programming"
+    },
+    {   
+        "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1QUqT_LW_hTo2dADrV6EM12ORU6-yOiiTkg&s",
+        "duration": "20h 30m",
+        "title": "Introduction to Web Development",
+        "lessons": "15",
+        "level": "Intermediate",
+        "rating": "4.4",
+        "userImg": "",
+        "userName": "Smith",
+        "price": "750",
+        "category": "Web Design"
+    }
+]
